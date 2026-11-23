@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  /* Primary: Purple */
+  --color-primary-50: #f7f3ff;
+  --color-primary-100: #eee5ff;
+  --color-primary-200: #ddceff;
+  --color-primary-300: #c5aaff;
+  --color-primary-400: #a77aff;
+  --color-primary-500: #8b4de8;
+  --color-primary-600: #7834d1;
+  --color-primary-700: #6426b0;
+  --color-primary-800: #52218f;
+  --color-primary-900: #431d74;
+
+  /* Neutral */
+  --color-neutral-50: #fafafa;
+  --color-neutral-100: #f4f4f5;
+  --color-neutral-200: #e4e4e7;
+  --color-neutral-300: #d4d4d8;
+  --color-neutral-500: #71717a;
+  --color-neutral-600: #52525b;
+  --color-neutral-700: #3f3f46;
+  --color-neutral-800: #27272a;
+  --color-neutral-900: #18181b;
+
+  /* Semantic */
+  --color-success: #16a34a;
+  --color-danger: #dc2626;
+  --color-warning: #d97706;
+
+  /* Typography */
+  --font-sans: Inter, ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  color: #18181b;
+  background: #fafafa;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
